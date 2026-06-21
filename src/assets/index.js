@@ -31,17 +31,17 @@ import gan_dapt from './gan_dapt.jpg';
 import neuro_drive from './neuro_drive.jpg';
 import market_predict from './market_predict.jpg';
 
-import CPP from './tech/CPP.png';
-import CSS3 from './tech/CSS3.png';
+import CPP from './tech/cpp.png';
+import CSS3 from './tech/css3.png';
 import HTML5 from './tech/HTML5.png';
-import Express from './tech/Express.png';
+import Express from './tech/express.png';
 import Github from './tech/GitHub.png';
-import javascript from './tech/JavaScript.png';
+import javascript from './tech/javaScript.png';
 import React from './tech/React.png';
 import nodejs from './tech/Node.js.png';
 import mongodb from './tech/MongoDB.png';
 import tailwind from './tech/Tailwind CSS.png';
-import docker from './tech/Docker.png';
+import docker from './tech/docker.png';
 import Redis from './tech/Redis.png';
 
 import ai_interview from './Ai-Interview.jpg';
