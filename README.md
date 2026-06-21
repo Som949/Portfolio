@@ -1,50 +1,46 @@
-# Stunning 3D Portfolio Website | ThreeJS & Framermotion
+# 🚀 Sanskar Sharma - Developer Portfolio
 
-![screen-shot](https://i.imgur.com/JHgrRn6.png)
+A modern and responsive 3D portfolio website built to showcase my projects, technical skills, coding achievements, and professional journey as a MERN Stack Developer.
 
-You can see a live preview of the Stunning 3D Portfolio Website [here](https://3d-portfolio-eskew.netlify.app).
+## 🌐 Live Demo
 
-> Welcome to the Stunning 3D Portfolio Website repository! This project aims to provide an immersive and visually striking portfolio website using cutting-edge technologies. Whether you're a designer, developer, or creative professional, this portfolio template will leave a lasting impression on your visitors.
+🔗 https://sanskar-portfolio-khaki.vercel.app
 
-## Features
-- **Eye-Catching 3D Effects**: Engage your visitors with stunning 3D animations and effects that bring your portfolio to life. Impress and captivate your audience with a unique and memorable experience.
-- **Responsive Design**: The website is designed to be fully responsive, ensuring it looks great and functions flawlessly across all devices and screen sizes.
-- **Smooth Page Transitions**: Enjoy seamless page transitions and smooth scrolling effects that provide a delightful user experience and enhance the overall flow of the website.
-- **Interactive Portfolio Showcase**: Showcase your work in an interactive and visually appealing manner. Let your projects shine with beautiful imagery, engaging descriptions, and easy navigation.
-- **Customizable and Easy to Use**: Tailor the portfolio to your needs by easily customizing various aspects, such as colors, typography, content, and more. The codebase is clean, well-organized, and extensively commented on for easy understanding and modification.
+## 📌 Features
 
+- ✨ Modern 3D UI Design
+- 📱 Fully Responsive Layout
+- 🎨 Interactive Animations using Three.js
+- 👨‍💻 Projects Showcase
+- 🛠 Technical Skills Section
+- 🏆 Coding Achievements Section
+- 📄 Resume Download Option
+- 📬 Contact Information & Social Links
 
+## 🛠 Tech Stack
 
-## Installation
-To get started with the Stunning 3D Portfolio Website, follow these steps:
+### Frontend
+- React.js
+- Tailwind CSS
+- JavaScript
 
-1. Clone this repository:
+### 3D & Animations
+- Three.js
+- React Three Fiber
+- Framer Motion
+
+### Deployment
+- Vercel
+
+## 🚀 Installation
+
 ```bash
-   git clone https://github.com/Andrew-Tsegaye/Stunning_3D_Portfolio_Website.git
+git clone https://github.com/Som949/Portfolio.git
+cd Portfolio
+npm install
+npm run dev
 ```
-2. Navigate to the project directory:
-```bash
-  cd Stunning_3D_Portfolio_Website
-```
-3. Open the `index.html` file in your preferred web browser.
-   
-That's it! You're now ready to explore and customize your stunning 3D portfolio website.
 
-## Contributing
-Contributions are welcome and encouraged! If you find any issues or have ideas for improvements, feel free to open an issue or submit a pull request. 
+---
 
-## License
-This project is licensed under the `MIT License`.
-
-## Acknowledgments
-A huge thank you to the following resources and inspirations:
-
-- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
-- [TailwindCSS](https://tailwindcss.com)
-
-## Contact
-If you have any questions, or suggestions, or just want to say hi, you can reach out to the project maintainer:
-
-- Andrew Tsegaye
-- Email: andrewtsegaye7@gmail.com
-- Twitter: [@AndrewTsegaye](https://twitter.com/AndrewTsegaye).
+⭐ If you like this project, consider giving it a star!
