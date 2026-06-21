@@ -36,7 +36,7 @@ import CSS3 from './tech/css3.png';
 import HTML5 from './tech/HTML5.png';
 import Express from './tech/express.png';
 import Github from './tech/GitHub.png';
-import javascript from './tech/javaScript.png';
+import javascript from './tech/javascript.png';
 import React from './tech/React.png';
 import nodejs from './tech/Node.js.png';
 import mongodb from './tech/MongoDB.png';
