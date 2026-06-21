@@ -33,16 +33,16 @@ import market_predict from './market_predict.jpg';
 
 import CPP from './tech/cpp.png';
 import CSS3 from './tech/css3.png';
-import HTML5 from './tech/HTML5.png';
+import HTML5 from './tech/html.png';
 import Express from './tech/express.png';
-import Github from './tech/GitHub.png';
+import Github from './tech/gitHub.png';
 import javascript from './tech/javascript.png';
-import React from './tech/React.png';
-import nodejs from './tech/Node.js.png';
-import mongodb from './tech/MongoDB.png';
-import tailwind from './tech/Tailwind CSS.png';
+import React from './tech/react.png';
+import nodejs from './tech/nodejs.png';
+import mongodb from './tech/mongodb.png';
+import tailwind from './tech/tailwindcss.png';
 import docker from './tech/docker.png';
-import Redis from './tech/Redis.png';
+import Redis from './tech/redis.png';
 
 import ai_interview from './Ai-Interview.jpg';
 import bank from './bank.png';
