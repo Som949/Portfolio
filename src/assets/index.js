@@ -35,7 +35,7 @@ import CPP from './tech/cpp.png';
 import CSS3 from './tech/css3.png';
 import HTML5 from './tech/html.png';
 import Express from './tech/express.png';
-import Github from './tech/gitHub.png';
+import Github from './tech/github.png';
 import javascript from './tech/javascript.png';
 import React from './tech/react.png';
 import nodejs from './tech/nodejs.png';
