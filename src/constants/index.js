@@ -1,13 +1,5 @@
 import {
   python,
-  tensorflow,
-  scikit_learn,
-  pytorch,
-  keras,
-  numpy,
-  pandas,
-  pycharm,
-  jupyter,
   mobile,
   backend,
   creator,
@@ -23,6 +15,21 @@ import {
   kamel_tourki,
   nati_gezahegn,
   zakaria,
+  CPP,
+  CSS3,
+  HTML5,
+  Express,
+  Github,
+  javascript,
+  React,
+  nodejs,
+  mongodb,
+  tailwind,
+  docker,
+  Redis,
+  ai_interview,
+bank,
+image_portfolio,
 } from '../assets';
 
 export const navLinks = [
@@ -32,7 +39,7 @@ export const navLinks = [
   },
   {
     id: 'work',
-    title: 'Work',
+    title: 'Projects',
   },
   {
     id: 'contact',
@@ -42,19 +49,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Machine Learning',
+    title: 'MERN Stack Development',
     icon: web,
   },
   {
-    title: 'Algorithms and Models',
+    title: 'Data Structures & Algorithms',
     icon: mobile,
   },
   {
-    title: 'Deep Learning Frameworks',
+    title: 'Problem Solving',
     icon: backend,
   },
   {
-    title: 'Neural Networks',
+    title: 'Backend Development',
     icon: creator,
   },
 ];
@@ -65,36 +72,52 @@ const technologies = [
     icon: python,
   },
   {
-    name: 'Tensorflow',
-    icon: tensorflow,
+    name: 'C++',
+    icon: CPP,
   },
   {
-    name: 'Scikit Learn',
-    icon: scikit_learn,
+    name: 'JavaScript',
+    icon: javascript,
   },
   {
-    name: 'PyTorch',
-    icon: pytorch,
+    name: 'React.js',
+    icon: React,
   },
   {
-    name: 'Keras',
-    icon: keras,
+    name: 'Node.js',
+    icon: nodejs,
   },
   {
-    name: 'NumPy',
-    icon: numpy,
+    name: 'Express.js',
+    icon: Express,
   },
   {
-    name: 'Pandas',
-    icon: pandas,
+    name: 'MongoDB',
+    icon: mongodb,
   },
   {
-    name: 'PyCharm',
-    icon: pycharm,
+    name: 'HTML5',
+    icon: HTML5,
   },
   {
-    name: 'Jupyter',
-    icon: jupyter,
+    name: 'CSS3',
+    icon: CSS3,
+  },
+  {
+    name: 'GitHub',
+    icon: Github,
+  },
+  {
+    name: 'Tailwind CSS',
+    icon: tailwind,
+  },
+  {
+    name: 'Docker',
+    icon: docker,
+  },
+  {
+    name: 'Redis',
+    icon: Redis,
   },
 ];
 
@@ -165,97 +188,71 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      'An AI optimization prodigy for OFDM (mainly 5G), with outstanding problem solving skills and strong programming expertise, making him highly recommended.',
-    name: 'Kamel Tourki',
-    designation: 'Research and Standardization Manager',
-    company: 'Ericsson',
-    image: kamel_tourki,
-  },
-  {
-    testimonial:
-      'He has exemplified extraordinary prowess as a devoted, tireless, and imaginative AI master, coupled with remarkable personal qualities that radiate brilliance.',
-    name: 'Nathnael Gezahegn',
-    designation: 'CEO',
-    company: 'BN Technologies',
-    image: nati_gezahegn,
-  },
-  {
-    testimonial:
-      'Eskinder is an exceptional AI expert, demonstrating unmatched talent in research, critical thinking, and harnessing PyTorch and Keras to their fullest potential.',
-    name: 'Zakaria El Moutaki',
-    designation: 'Standardization Researcher',
-    company: 'Ericsson',
-    image: zakaria,
-  },
-];
+const testimonials = [];
 
 const projects = [
   {
-    name: 'GAN-DAPT',
+    name: 'InterviewAI',
     description:
-      'Leveraging domain-invariant image translations, I combined domain adaptation and generalization techniques for improved image segmentation.',
+      'An AI-powered Resume Analyzer and Interview Preparation Platform that analyzes resumes, matches them with job descriptions, and generates personalized interview reports using Google Gemini AI.',
     tags: [
       {
-        name: 'DaSeGAN',
+        name: 'React',
         color: 'blue-text-gradient',
       },
       {
-        name: 'DaSeGAN-S',
+        name: 'Node.js',
         color: 'green-text-gradient',
       },
       {
-        name: 'DaSeGAN-T',
+        name: 'MongoDB',
         color: 'pink-text-gradient',
       },
     ],
-    image: gan_dapt,
-    source_code_link: 'https://github.com/',
+    image: ai_interview,
+    source_code_link: 'https://github.com/Som949/Interview-AI',
   },
   {
-    name: 'Neuro Drive',
+    name: 'UPI Banking System',
     description:
-      'Successfully trained a cutting-edge self-driving car using Convolution neural networks (CNN) utilizing a state-of-the-art simulator provided by Udacity.',
+      'A secure digital wallet and banking platform with UPI integration, enabling account management, money transfers, transaction tracking, and OTP-based authentication.',
     tags: [
       {
-        name: 'Opencv-python',
+        name: 'React',
         color: 'blue-text-gradient',
       },
       {
-        name: 'Pandas',
+        name: 'Node.js',
         color: 'green-text-gradient',
       },
       {
-        name: 'Numpy',
+        name: 'Supabase',
         color: 'pink-text-gradient',
       },
     ],
-    image: neuro_drive,
-    source_code_link: 'https://github.com/',
+    image: bank,
+    source_code_link: 'https://github.com/Som949/Upi-Banking-System',
   },
   {
-    name: 'Market Value Predictor',
+    name: 'Portfolio Website',
     description:
-      "I developed a powerful regression model using machine learning algorithms to predict professional football players' market value accurately.",
+      'A modern 3D developer portfolio built with React and Three.js to showcase projects, technical skills, resume, and contact information through an interactive user experience.',
     tags: [
       {
-        name: 'Python',
+        name: 'React',
         color: 'blue-text-gradient',
       },
       {
-        name: 'Linear Regression',
+        name: 'Three.js',
         color: 'green-text-gradient',
       },
       {
-        name: 'Numpy',
+        name: 'Tailwind CSS',
         color: 'pink-text-gradient',
       },
     ],
-    image: market_predict,
-    source_code_link:
-      'https://github.com/ESKINDERTSEGAYE/Project-Market-Value-Predictor',
+    image: image_portfolio,
+    source_code_link: 'https://github.com/Som949/Portfolio_Website',
   },
 ];
 

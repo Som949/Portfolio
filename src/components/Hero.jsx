@@ -14,14 +14,14 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        <div>
+        <div> 
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]">Eskinder</span>
+            Hi, I'm <span className="text-[#915eff]">Sanskar</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            An AI engineer with expertise in developing and{' '}
-            <br className="sm:block hidden" /> deploying artificial intelligence
-            systems.
+            CSE Student at IIIT Vadodara
+            <br className="sm:block hidden" />
+            MERN Stack Developer & DSA Enthusiast
           </p>
         </div>
       </div>

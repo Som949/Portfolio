@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 
 import { styles } from '../styles';
 import { EarthCanvas } from './canvas';
@@ -27,42 +27,41 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = e => {
-    e.preventDefault();
-    setLoading(true);
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+  setLoading(true);
 
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: 'Eskinder Tsegaye',
-          from_email: form.email,
-          to_email: 'eskinderdefar.ele16@gmail.com',
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert('Thank you. I will get back to you as soon as possible.');
+  const formData = new FormData();
 
-          setForm({
-            name: '',
-            email: '',
-            message: '',
-          });
-        },
-        error => {
-          setLoading(false);
-          console.error(error);
+  formData.append("access_key", import.meta.env.VITE_WEB3FORMS_ACCESS_KEY);
+  formData.append("name", form.name);
+  formData.append("email", form.email);
+  formData.append("message", form.message);
 
-          alert('Ahh, something went wrong. Please try again.');
-        }
-      );
-  };
+  const response = await fetch(
+    "https://api.web3forms.com/submit",
+    {
+      method: "POST",
+      body: formData,
+    }
+  );
+
+  const result = await response.json();
+
+  if (result.success) {
+    alert("Message sent successfully!");
+
+    setForm({
+      name: "",
+      email: "",
+      message: "",
+    });
+  } else {
+    alert("Something went wrong.");
+  }
+
+  setLoading(false);
+};
 
   return (
     <div

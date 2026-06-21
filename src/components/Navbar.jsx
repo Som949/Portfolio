@@ -22,10 +22,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          {/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Eskinder &nbsp;{' '}
-            <span className="sm:block hidden">| &nbsp;AI Engineer</span>
+            Sanskar &nbsp;{' '}
+            <span className="sm:block hidden">| &nbsp;MERN Developer</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -41,6 +41,34 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+<div className="hidden sm:flex items-center gap-4">
+  <a
+    href="https://github.com/Som949"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white hover:text-[#915eff]"
+  >
+    GitHub
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/sanskar-sharma-755b03315/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white hover:text-[#915eff]"
+  >
+    LinkedIn
+  </a>
+
+  <a
+    href="/resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#915eff] px-5 py-2 rounded-lg text-white font-medium hover:opacity-90"
+  >
+    Resume
+  </a>
+</div>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img

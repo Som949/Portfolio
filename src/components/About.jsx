@@ -44,13 +44,14 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        As a seasoned AI Engineer proficient in Python and Machine Learning, I
-        bring a wealth of experience and a proven track record in successfully
-        executing large-scale projects. With a strong foundation in cutting-edge
-        algorithms, I am eager to join a top-tier AI development team. Together,
-        we can tackle complex AI challenges and drive innovation to new heights.
-        Let's shape the future of artificial intelligence and create
-        extraordinary solutions.
+        I am a Computer Science student at IIIT Vadodara with a strong interest in
+  Software Development, Data Structures & Algorithms, and Full Stack Web
+  Development. I enjoy building scalable web applications using the MERN stack
+  and solving challenging programming problems. Through academic projects and
+  continuous learning, I have developed skills in C++, JavaScript, React.js,
+  Node.js, Express.js, and MongoDB. I am always eager to explore new
+  technologies, improve my problem-solving abilities, and create impactful
+  software solutions.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
