@@ -61,7 +61,7 @@ const Navbar = () => {
   </a>
 
   <a
-    href="/resume.pdf"
+    href="/Sanskar_Resume.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="bg-[#915eff] px-5 py-2 rounded-lg text-white font-medium hover:opacity-90"
